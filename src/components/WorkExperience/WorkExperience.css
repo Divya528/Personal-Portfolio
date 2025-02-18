@@ -1,0 +1,83 @@
+/* WorkExperience.css */
+.work-experience {
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
+  }
+  
+  .work-experience__header {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+  }
+  
+  .work-experience__job {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 1.5rem;
+  }
+  
+  .work-experience__job h3 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .work-experience__job p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .work-experience__job .dates {
+    font-size: 1rem;
+    color: #aaa;
+    font-style: italic;
+  }
+  
+  .work-experience__job .details {
+    margin-top: 1rem;
+    list-style-type: disc;
+    margin-left: 2rem;
+    color: #444;
+  }
+  
+  .work-experience__job .details li {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Add hover effect on the job container */
+  .work-experience__job:hover {
+    background-color: #e8e8e8;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Responsive Design for Mobile */
+  @media (max-width: 768px) {
+    .work-experience {
+      padding: 1rem;
+    }
+  
+    .work-experience__header {
+      font-size: 1.8rem;
+    }
+  
+    .work-experience__job {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .work-experience__job h3 {
+      font-size: 1.3rem;
+    }
+  
+    .work-experience__job .dates {
+      margin-bottom: 0.5rem;
+    }
+  
+    .work-experience__job .details {
+      margin-left: 1rem;
+    }
+  }
+  

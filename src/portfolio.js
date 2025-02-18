@@ -1,19 +1,21 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rjshkhr.github.io/cleanfolio',
-  title: 'JS.',
+  homepage: 'https://github.com/Divya528/Personal-Portfolio',
+  title: 'Software Engineer',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
-  description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+  name: 'Metta Divya',
+  role: 'Software Engineer',
+  description: `
+    A passionate Software Engineer with experience in building scalable applications using Spring Boot and Java. I have experience working with Java, Spring Boot, PostgreSQL, MySQL, and Postman during my internship, where I developed backend services, optimized database queries, and integrated REST APIs.
+    After taking a career break to focus on family obligations, I am now excited to return to the software development field and pursue Software Developer roles, applying my skills in building scalable web applications.
+  `,
+  resume: 'https://drive.google.com/file/d/11lMeqJtO9C88nhL_GSz23tGTOB8VJ-Rd/view?usp=drivesdk',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/mettadivya',
+    github: 'https://github.com/Divya528',
   },
 }
 
@@ -21,28 +23,28 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Supply Chain Management System',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'A Spring Boot-based inventory system handling 1,000+ transactions daily, with optimized database queries improving efficiency by 40%.',
+    stack: ['Spring Boot', 'Java', 'MySQL', 'REST API'],
+    sourceCode: 'https://github.com/Divya528/Supply-chain-management-system',
+    livePreview: 'https://github.com/Divya528/Supply-chain-management-system',
   },
   {
-    name: 'Project 2',
+    name: 'Employee Management System',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'A desktop application built with Java Swing and AWT for managing employee data, integrated with MySQL for efficient record handling.',
+    stack: ['Java', 'Swing', 'AWT', 'MySQL'],
+    sourceCode: 'https://github.com/Divya528/EmployeeManagementSystem',
+    livePreview: 'https://github.com/Divya528/EmployeeManagementSystem',
   },
   {
-    name: 'Project 3',
+    name: 'ML Project: Smartphone Impact on Students',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'A machine learning analysis on smartphone usage patterns using K-Means, SVM, and KNN, featuring a visualization dashboard.',
+    stack: ['Python', 'Machine Learning', 'Pandas', 'Matplotlib'],
+    sourceCode: 'https://github.com/Divya528/EmployeeManagementSystem',
+    livePreview: 'https://github.com/Divya528/EmployeeManagementSystem',
   },
 ]
 
@@ -52,20 +54,35 @@ const skills = [
   'HTML',
   'CSS',
   'JavaScript',
-  'TypeScript',
-  'React',
-  'Redux',
-  'SASS',
-  'Material UI',
+  'React JS',
+  'Java',
+  'springboot',
+  'python',
   'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  'SQL',
+  "Rest API's",
+  
 ]
+
+export const workExperience = [
+  {
+    position: 'Software Engineer Intern',
+    company: 'Aaga Tech',
+    startDate: 'Feb 2025',
+    endDate: 'Mar 2025',
+    details: [
+      'Developed and maintained backend services using Spring Boot & REST APIs, reducing response time by 30%.',
+      'Optimized 10+ MySQL queries, improving database efficiency by 40%.',
+      'Integrated JWT authentication, improving security for user sessions.',
+      'Used Git & GitHub for version control and collaborated in an Agile team.',
+    ],
+  }
+]
+
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'divyametta2000@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
